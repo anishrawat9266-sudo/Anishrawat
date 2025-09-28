@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: #f0f0f0;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#drag-text {
+  cursor: grab;
+  font-size: 3em;
+  transition: color 0.3s ease;
+}
+
+/* About Me */
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Projects */
+.projects {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  background: #2575fc;
+  color: white;
+}
+
+/* Contact */
+.contact {
+  padding: 50px;
+  text-align: center;
+}

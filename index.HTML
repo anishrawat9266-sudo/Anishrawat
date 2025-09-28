@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 id="drag-text" draggable="true">Hi, I'm Anish Rawat</h1>
+    <p>Digital Creator & Web Enthusiast</p>
+  </section>
+
+  <!-- About Me -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I create interactive websites, design content, and love exploring tech. My goal is to build digital experiences that stand out.</p>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">Project 1</div>
+    <div class="project-card">Project 2</div>
+    <div class="project-card">Project 3</div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: example@email.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
